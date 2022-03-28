@@ -1,4 +1,6 @@
+@import 'footer';
 @import 'main';
+
 
 
 .section__welcome, .section__edu {
@@ -127,7 +129,7 @@ footer {
         font-size: 25rem;
     }
     .section__me__content {
-        max-width: 100%;
+        max-width: 90%;
     }
 }
 
