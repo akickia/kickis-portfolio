@@ -9,6 +9,13 @@
 .container {
     display: flex;
     flex-direction: column;
+    a {
+        color: black;
+        font-weight: 600;
+    }
+    a:hover {
+        color: blue;
+    }
 }
 
 .section__edu {
@@ -18,6 +25,9 @@
 .edu {
     max-width: 40%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .section__project--start {
@@ -31,15 +41,26 @@
 .section__project {
     display:flex;
     justify-content: center;
-    a {
-        color: black;
-    }
-    a:hover {
-        color: blue;
-        font-weight: 600;
-    }
 }
 
+.web {
+    text-align: center;
+}
+.web-cont {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img {
+    max-width: 40%;
+    padding: 2%;
+}
+
+.web-text {
+    max-width: 40%;
+}
 .project-fskuppror {
     max-width: 70%;
 }
@@ -77,6 +98,13 @@
 @media screen and (max-width:768px) {
     .fa-cat {
         font-size: 10rem;
+    }
+    .web-cont {
+        flex-direction: column;
+        text-align: center;
+    }
+    .img, .web-text {
+        max-width: 90%;
     }
 }
     

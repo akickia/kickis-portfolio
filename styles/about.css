@@ -158,6 +158,10 @@ a {
   min-height: 180px;
 }
 
+.active {
+  color: purple;
+}
+
 .dropdown-content {
   display: none;
   font-size: 24px;
