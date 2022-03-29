@@ -10,22 +10,35 @@
     <title>Other resourses</title>
 </head>
 <body>
-    <header>
+  <header>
+    <nav class="section__nav">
+      <ul class="nav-list" id="nav-bar">
+        <li><a class="icon" onclick="burgerMenu()">
+          <i class="fa fa-bars"></i></a></li>
+        <li><a href="../about.html">About</a></li>
+
+        <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
+          <ul class="dropdown-content">
+            <li><a href="webbpages.html">Webbpages</a></li>
+            <li><a href="educations.html">Educations</a></li>
+            <li><a href="other.html">Other</a></li>
+          </ul>
+        </li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main class="container">
+      <div class="section__heading">
+        <h1>My work - other resourses</h1>
+      </div>
+  
+      <div class="section section__project--start">
+        <h5>Here are some of the projects I've been a part of in my spare time.</h5>
+      </div>
       
-    </header>
-    <main>
-        <div>
-          <div>
-            <h1>My work - other resourses</h1>
-          </div>
-        </div>
-        <div>
-          <div>
-            <h5>Here are some of the projects I've been a part of in my spare time.</h5>
-          </div>
-        </div>
-        <div>
-          <div>
+      <div class="section__project">
+          <div class="section project-fskuppror">
             <h4>Förskoleupproret Eskilstuna</h4>
             <p>In 2016 I started a local branch of Förskoleupproret regarding the preschool in Eskilstuna. Förskoleupproret in a non-profit, non-political organisation of people that are working for better conditions
               in the Swedish preschool. They are demanding smaller groups of children, more staff and less optional chores. Personnel in the preschool are overrepresented in the statistics of people getting sick from stress due to the pressure and constantly having a guilty conscience towards the children and all the demands that they do not have the proper time to complete.
@@ -44,8 +57,8 @@
           
          
         </div>
-        <div>
-          <div>
+        <div class="section__project">
+          <div class="section project-flicka">
             <h4>Fli!cka</h4>
             <p>The Fl!cka-project was a campaign from the Ministry of Social Affairs that I became part of 2004. The purpose of the campaign was to inform young girls and boys about the affect 
               that unrealistic ideals in commercials had on self-esteem and our expectations of how girls/boys should look and behave. The focus was to creatie awareness and a place for young people to discuss. 
@@ -54,33 +67,38 @@
           social media and the effect (good and bad) it can have on the individual.</p>  
             <img class="flicka" src="../../images/flicka.jpg" alt="flickaprojektet">
           </div>
-          
-          <div>
+        </div>
+        <div class="section__project section__project--small">
+          <div class="section project-mlk">
             <h4>Mälarkatten</h4>
             <p>Since my childhood up until 2009 I was part of a cat-club named Mälarkatten that organized cat owners and arranged international cat shows with hundreds of participants. 
               Mälarkatten was a part of the Swedish organisation SVERAK, a part of the international organisation FIFE.
               I have had different responsibilities in the organization during the years, such as president, secretary, webbmaster and editor of the club magazin. Mälarkatten was cancelled in 2009 due to lack of new members. </p>
               <p><i class="fa fa-cat"></i></p>          
-              
-            </div>
-            <div>
+          </div>
+          <div class="section project-loppis">
               <h4>Barnloppis</h4>
               <p>I was one of five parents that started and arranged a second-hand-fair for kids clothes each spring and fall between 2015-2018. I had responsibillity for handling the participants and all the 
                 communication with them, among other things. I also ran one of the cash registers. </p> 
-                <img class="loppis" src="../../images/barnloppis.jpg" alt="barnloppis">     
-            </div>
+                <img class="loppis" src="../../images/barnloppis.jpg" alt="barnloppis">
+        
+          </div>
         </div>
     </main>
 
     <footer>
       <div class="footer__section">
-        <div class="contact-link"><a href="#"><h5>Contact me</h5></a></div>
+        <div class="contact-link"><a href="mailto:kicki.lindstrand@gmail.com"><h4>Contact me</h4></a></div>
         <div class="copywright"><p class="small-text">Made by akickia</p></div>
         <div class="social-links">
           <a href="http://www.linkedin.com/in/kicki-lindstrand" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com/akickias_hemsidor/" target="_blank"><i class="fa fa-instagram"></i></a>
           <a href="https://github.com/akickia/" target="_blank"><i class="fa fa-github"></i></a>
         </div>
       </div>
     </footer>
+
+    <script src="../../script/script.js"></script>
+
 </body>
 </html>

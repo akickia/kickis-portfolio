@@ -10,7 +10,24 @@
     <title>Contact</title>
 </head>
 <body>
-    <header></header>
+  <header>
+    <nav class="section__nav">
+      <ul class="nav-list" id="nav-bar">
+        <li><a class="icon" onclick="burgerMenu()">
+          <i class="fa fa-bars"></i></a></li>
+        <li><a href="about.html">About</a></li>
+
+        <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
+          <ul class="dropdown-content">
+            <li><a href="portfolio/webbpages.html">Webbpages</a></li>
+            <li><a href="portfolio/educations.html">Educations</a></li>
+            <li><a href="portfolio/other.html">Other</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
     <main class="container">
       <div class="section__heading">
@@ -51,6 +68,7 @@
       </div>
     </footer>
 
+    <script src="../script/script.js"></script>
 
     
     

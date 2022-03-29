@@ -10,51 +10,65 @@
     <title>Education</title>
 </head>
 <body>
-    <header>
-        
-    </header>
-    <main>
-        <div>
-          <div>
+  <header>
+    <nav class="section__nav">
+      <ul class="nav-list" id="nav-bar">
+        <li><a class="icon" onclick="burgerMenu()">
+          <i class="fa fa-bars"></i></a></li>
+        <li><a href="../about.html">About</a></li>
+
+        <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
+          <ul class="dropdown-content">
+            <li><a href="webbpages.html">Webbpages</a></li>
+            <li><a href="educations.html">Educations</a></li>
+            <li><a href="other.html">Other</a></li>
+          </ul>
+        </li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main class="container">
+        <div class="section__heading">
             <h1>Education</h1>
-          </div>
         </div>
-        <div>
-          <div>
+        
+        <div class="section__edu">
+          <div class="section edu edu-oru">
             <h4>Lärarprogrammet</h4>
             <p>Örebro university</p>
             <p>Legitimized teacher (main subject: Swedish) and preschool teacher.</p>
             <p>2004-2010</p>
           </div>
-          <div>
+          <div class="section edu edu-mdh1">
             <h4>Lärare och handledning 1 & 2</h4>
             <p>Mälardalens högskola</p>
             <p>Course 1 to become a mentor for students. Course 2 for more knowledge in professional comunication and mentoring.</p>
             <p>2017 and 2020</p>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="section__edu">
+          <div class="section edu edu-tfw">
             <h4>IT-Tech for women</h4>
             <p>Sundsgårdens folkhögskola</p>
             <p>Intense course to become a front end developer. HTML, CSS, JavaScript and frameworks.</p>
             <p>2022 (ongoing)</p>
           </div>
-          <div>
+          <div class="section edu edu-code">
             <h4>Learn JavaScript</h4>
             <p>Codecadamy</p>
             <p>Online course for learning the basics in JavaScript</p>
             <p>2021</p>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="section__edu">
+          <div class="section edu edu-tjejer">
             <h4>Börja koda</h4>
             <p>Tjejer kodar</p>
             <p>Online course for learning the basics in HTML and CSS, including flexbox and publishing a website.</p>
             <p>2021</p>
           </div>
-          <div>
+          <div class="section edu edu-hermods">
             <h4>Programmering 1</h4>
             <p>Hermods</p>
             <p>Basics in coding (Python and C#)</p>
@@ -65,13 +79,17 @@
 
     <footer>
       <div class="footer__section">
-        <div class="contact-link"><a href="#"><h5>Contact me</h5></a></div>
+        <div class="contact-link"><a href="mailto:kicki.lindstrand@gmail.com"><h4>Contact me</h4></a></div>
         <div class="copywright"><p class="small-text">Made by akickia</p></div>
         <div class="social-links">
           <a href="http://www.linkedin.com/in/kicki-lindstrand" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com/akickias_hemsidor/" target="_blank"><i class="fa fa-instagram"></i></a>
           <a href="https://github.com/akickia/" target="_blank"><i class="fa fa-github"></i></a>
         </div>
       </div>
     </footer>
+
+    <script src="../../script/script.js"></script>
+
 </body>
 </html>

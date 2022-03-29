@@ -10,8 +10,24 @@
     <title>About</title>
 </head>
 <body>
-    <header>
-    </header>
+  <header>
+    <nav class="section__nav">
+      <ul class="nav-list" id="nav-bar">
+        <li><a class="icon" onclick="burgerMenu()">
+          <i class="fa fa-bars"></i></a></li>
+        <li><a href="about.html">About</a></li>
+
+        <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
+          <ul class="dropdown-content">
+            <li><a href="portfolio/webbpages.html">Webbpages</a></li>
+            <li><a href="portfolio/educations.html">Educations</a></li>
+            <li><a href="portfolio/other.html">Other</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
     <main class="container">
         <div class="section__heading">
           <h1>About me</h1>
@@ -143,16 +159,17 @@
 
     <footer>
       <div class="footer__section">
-        <div class="contact-link"><a href="#"><h5>Contact me</h5></a></div>
+        <div class="contact-link"><a href="mailto:kicki.lindstrand@gmail.com"><h4>Contact me</h4></a></div>
         <div class="copywright"><p class="small-text">Made by akickia</p></div>
         <div class="social-links">
           <a href="http://www.linkedin.com/in/kicki-lindstrand" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com/akickias_hemsidor/" target="_blank"><i class="fa fa-instagram"></i></a>
           <a href="https://github.com/akickia/" target="_blank"><i class="fa fa-github"></i></a>
         </div>
       </div>
     </footer>
 
-    
+    <script src="../script/script.js"></script>
     
 </body>
 </html>
