@@ -7,11 +7,11 @@
     color: beige;
     background-color: #03a8bb;
     font-size: 30px;
-    min-height: 180px;
+    min-height: 80px;
 }
 
 .active {
-    color: purple;
+    color: rgb(80, 79, 79);
 }
 .dropdown-content {
     display: none;
@@ -22,7 +22,8 @@
   }
   .open {
     .dropdown-content {
-        display: block;
+        display: flex;
+        flex-direction: column;
         background-color: #03a8bb;
         padding: 2%;
     }

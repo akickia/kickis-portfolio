@@ -26,6 +26,7 @@ main {
           box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
   background-color: white;
   padding: 2%;
+  border: 2px solid rgba(0, 0, 0, 0.5);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,12 +42,20 @@ button a {
   color: white;
 }
 
+button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 a {
   text-decoration: none;
 }
 
 a:hover {
-  color: blue;
+  color: black;
+  font-weight: bold;
+  -webkit-transition: 0.35s ease 0s;
+  transition: 0.35s ease 0s;
 }
 
 .small-text {
@@ -56,6 +65,7 @@ a:hover {
 footer {
   background-color: #03a8bb;
   color: white;
+  font-size: 20px;
 }
 
 a {
@@ -155,11 +165,11 @@ a {
   color: beige;
   background-color: #03a8bb;
   font-size: 30px;
-  min-height: 180px;
+  min-height: 80px;
 }
 
 .active {
-  color: purple;
+  color: #504f4f;
 }
 
 .dropdown-content {
@@ -171,7 +181,13 @@ a {
 }
 
 .open .dropdown-content {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #03a8bb;
   padding: 2%;
 }
@@ -232,11 +248,13 @@ a {
           flex-direction: column;
 }
 .container a {
-  color: black;
-  font-weight: 600;
+  color: #534f4f;
 }
 .container a:hover {
-  color: blue;
+  color: black;
+  font-size: bold;
+  -webkit-transition: 0.35s ease 0;
+  transition: 0.35s ease 0;
 }
 
 .section__edu {
@@ -277,6 +295,9 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.section__project a {
+  text-decoration: underline;
 }
 
 .web {
