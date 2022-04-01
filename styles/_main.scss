@@ -13,6 +13,11 @@ main {
     margin: auto;
 }
 
+:root {
+    --animate-duration: 4s;
+    --animate-delay: 2s;
+    --animate-repeat: 1;
+}
 .section {
     margin: 3%;
     display: flex;
