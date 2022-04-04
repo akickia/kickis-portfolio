@@ -3,6 +3,11 @@
 @import 'main';
 
 
+:root {
+    --animate-duration: 2s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
 
 .section__welcome, .section__edu {
     background-color: white;
@@ -25,7 +30,6 @@
     padding: 0% 5% 3% 5%;
     border-bottom-left-radius: 1%;
     border-top-left-radius: 1%;
-    
 }
 
 img { 
@@ -44,6 +48,7 @@ img {
     display: flex;
     justify-content: center;
 }
+
 .img-woman {
     border-radius: 50%;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);

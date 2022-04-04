@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the portfolio of frontend developer Kicki Lindstrand">
+    <meta property="og:description" content="Welcome to the portfolio of frontend developer Kicki Lindstrand">
+    <meta property="twitter:description" content="Welcome to the portfolio of frontend developer Kicki Lindstrand">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../styles/contact.css">
     <script src="https://kit.fontawesome.com/1aafbbb739.js" crossorigin="anonymous"></script>
     <title>Contact</title>
-</head>
-<body>
-  <header>
-    <nav class="section__nav">
-      <ul class="nav-list" id="nav-bar">
-        <li><a class="icon" onclick="burgerMenu()">
-          <i class="fa fa-bars"></i></a></li>
+  </head>
+  <body>
+    <header>
+      <nav class="section__nav">
+        <ul class="nav-list" id="nav-bar">
+          <li><a class="icon" onclick="burgerMenu()">
+            <i class="fa fa-bars"></i></a></li>
           <li><a href="../index.html">Start</a></li>
-        <li><a href="about.html">About</a></li>
-        <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
-          <ul class="dropdown-content">
-            <li><a href="portfolio/webbpages.html">Webpages</a></li>
-            <li><a href="portfolio/educations.html">Educations</a></li>
-            <li><a href="portfolio/other.html">Other</a></li>
-          </ul>
-        </li>
-        <li><a class="active" href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-    <main class="container animate__animated animate__zoomIn">
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
+            <ul class="dropdown-content">
+              <li><a href="portfolio/webbpages.html">Webpages</a></li>
+              <li><a href="portfolio/educations.html">Educations</a></li>
+              <li><a href="portfolio/other.html">Other</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
       <div class="section__heading">
         <h1>Contact</h1>
       </div>
-        <div class="section__image">
-            <img class="contact-img" src="../images/silhouette.png" alt="man and woman working">
+      <div class="section__image">
+        <img class="contact-img" src="../images/silhouette.png" alt="man and woman working">
+      </div>
+      <div class="section section__content">
+        <div>
+          <a href="mailto:kicki.lindstrand@gmail.com">Send me an email..</a>
         </div>
-        <div class="section section__content">
-          
-          <div><a href="mailto:kicki.lindstrand@gmail.com">Send me an email</a></div>
-          <div>
-            <div class="social-media">
-              <a href="http://www.linkedin.com/in/kicki-lindstrand" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
-            </div>
-            <div class="social-media">
-              <a href="https://instagram.com/akickias_hemsidor/" target="_blank"><i class="fa fa-instagram"> </i> Instagram</a>
-            </div>
-            <div class="social-media">
-              <a href="https://github.com/akickia/" target="_blank"><i class="fa fa-github"> </i> Github</a>
-            </div>
+        <div>
+          <p>..or check me out at:</p>
+          <div class="social-media">
+            <a href="http://www.linkedin.com/in/kicki-lindstrand" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+          </div>
+          <div class="social-media">
+            <a href="https://instagram.com/akickias_hemsidor/" target="_blank"><i class="fa fa-instagram"> </i> Instagram</a>
+          </div>
+          <div class="social-media">
+            <a href="https://github.com/akickia/" target="_blank"><i class="fa fa-github"> </i> Github</a>
           </div>
         </div>
-
-
-      
+      </div>
     </main>
-
     <footer>
       <div class="footer__section">
-        <div class="contact-link"><a href="mailto:kicki.lindstrand@gmail.com"><h4>Contact me</h4></a></div>
-        <div class="copywright"><p class="small-text">Made by akickia</p></div>
+        <div class="contact-link">
+          <a href="mailto:kicki.lindstrand@gmail.com"><h4>Contact me</h4></a>
+        </div>
+        <div class="copywright">
+          <p class="small-text">Made by akickia</p>
+        </div>
         <div class="social-links">
           <a href="http://www.linkedin.com/in/kicki-lindstrand" target="_blank"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://instagram.com/akickias_hemsidor/" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -70,8 +74,6 @@
     </footer>
 
     <script src="../script/script.js"></script>
-
     
-    
-</body>
+  </body>
 </html>

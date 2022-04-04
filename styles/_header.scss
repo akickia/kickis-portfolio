@@ -1,18 +1,16 @@
-
-
 .nav-list {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    color: beige;
     background-color: #03a8bb;
     font-size: 30px;
     min-height: 80px;
 }
 
 .active {
-    color: rgb(80, 79, 79);
+    color: white;
 }
+
 .dropdown-content {
     display: none;
     font-size: 24px;
@@ -37,26 +35,21 @@
     .nav-list li:not(:first-child) {
         display: none;
     }
-
     .section__nav a.icon {
     display: block;
     }
-
     .nav-list:first-child {
         justify-content: flex-end;
         padding: 3%;
     }
-
     .nav-list.responsive li {
         float: none;
         display: block;
         text-align: right;
       }
-
     .nav-list.responsive {
         display: block;
     }
- 
     ul {
         display: block;        
     }

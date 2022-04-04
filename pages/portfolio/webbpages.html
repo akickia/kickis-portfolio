@@ -1,77 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the portfolio of frontend developer Kicki Lindstrand">
+    <meta property="og:description" content="Welcome to the portfolio of frontend developer Kicki Lindstrand">
+    <meta property="twitter:description" content="Welcome to the portfolio of frontend developer Kicki Lindstrand">
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
     <link rel="stylesheet" href="../../styles/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../../styles/portfolio.css">
     <script src="https://kit.fontawesome.com/1aafbbb739.js" crossorigin="anonymous"></script>
-    <title>Webbpages</title>
-</head>
-<body>
-  <header>
-    <nav class="section__nav">
-      <ul class="nav-list" id="nav-bar">
-        <li><a class="icon" onclick="burgerMenu()">
-          <i class="fa fa-bars"></i></a></li>
+    <title>Webpages</title>
+  </head>
+  <body>
+    <header>
+      <nav class="section__nav">
+        <ul class="nav-list" id="nav-bar">
+          <li><a class="icon" onclick="burgerMenu()">
+            <i class="fa fa-bars"></i></a></li>
           <li><a href="../../index.html">Start</a></li>
-        <li><a href="../about.html">About</a></li>
-        <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
-          <ul class="dropdown-content">
-            <li><a class="active" href="webbpages.html">Webpages</a></li>
-            <li><a href="educations.html">Educations</a></li>
-            <li><a href="other.html">Other</a></li>
-          </ul>
-        </li>
-        <li><a href="../contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-    <main class="container animate__animated animate__zoomIn">
-        <div class="section__heading">
-            <h1>My work - Webpages</h1>
-        </div>
-        <div class="section__web">
-          <div class="section web web-bhro">
-            <h2>Bhromaon</h2>
-            <div class="web-cont"><img class="img" src="../../images/bhromaon.png" alt="bhromaon webpage">
+          <li><a href="../about.html">About</a></li>
+          <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
+            <ul class="dropdown-content">
+              <li><a class="active" href="webbpages.html">Webpages</a></li>
+              <li><a href="educations.html">Educations</a></li>
+              <li><a href="other.html">Other</a></li>
+            </ul>
+          </li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="section__heading">
+        <h1>My work - Webpages</h1>
+      </div>
+      <div class="section__web">
+        <div class="section web web-bhro">
+          <h2>Bhromaon</h2>
+          <div class="web-cont">
+            <img class="img" src="../../images/bhromaon.png" alt="bhromaon webpage">
             <div class="web-text">
-              <p>Assignment in the course IT:Tech for women. The assignment was to recreate a responsive design of the fictive company Bhromaon handed to us in Figma. 
-              The assignment did not include functionallity - links/buttons/form do not work. </p>
-              <p>In this project we had a timeframe, we had to complete the project in 12 hours. I managed to finnish in time, other than a few details that I've fixed later </p>
-              <p>It was a good lesson to have to plan your work to be able to make it. I started with the basic structure in doing all the sections and major styling, and then took every section to fix the details. </p>
+              <p> Assignment in the course IT:Tech for women. The assignment was to recreate a responsive design of the fictive company Bhromaon handed to us in Figma. 
+                  The assignment did not include functionallity - links/buttons/form do not work. 
+              </p>
+              <p> In this project we had a timeframe, we had to complete the project in 12 hours. I managed to finnish in time, other than a few details that I've fixed later 
+              </p>
+              <p> It was a good lesson to have to plan your work to be able to make it. I started with the basic structure in doing all the sections and major styling, and then took every section to fix the details. 
+              </p>
             </div>
-            </div>
-            <a class="small-text" href="https://bhromaon-schoolproject-kicki.netlify.app/" target="_blank">Open Bhromaon webpage in a new window.</a>
           </div>
-          <div class="section web web-git">
-            <h2>GitHub</h2>
-            <div class="web-cont"><img class="img" src="../../images/git.png" alt="github profile">
-              <div class="web-text">
-                <p>A link to my GitHub where I put my work. Here you can see my progress from the start up until now.</p>
-              </div>
-              </div>
-            <a class="small-text" href="https://github.com/akickia/" target="_blank">Open my profile from GitHub in a new window.</a>
-          </div>
-          <div class="section web web-fsk">
-            <h2>Förskolekompetens</h2>
-            <div class="web-cont"><img class="img" src="../../images/fsk-kompetens.png" alt="förskolekompetens">
-              <div class="web-text">
-                <p>One of my side projects where I'm testing to build a webpage for a fictive company. Still in progress. </p>
-                <p>I started this project before I entered this course and will keep on develop the page as I go on.</p>
-              </div>
-              </div>
-            <a class="small-text" href="https://frosty-nobel-1640a4.netlify.app/" target="_blank">Open Förskolekompetens in a new window.</a>        
-          </div>
+          <a class="small-text" href="https://bhromaon-schoolproject-kicki.netlify.app/" target="_blank">Open Bhromaon webpage in a new window.</a>
         </div>
+        <div class="section web web-git">
+          <h2>GitHub</h2>
+          <div class="web-cont">
+            <img class="img" src="../../images/git.png" alt="github profile">
+            <div class="web-text">
+              <p>A link to my GitHub where I put my work. Here you can see my progress from the start up until now.</p>
+            </div>
+          </div>
+          <a class="small-text" href="https://github.com/akickia/" target="_blank">Open my profile from GitHub in a new window.</a>
+        </div>
+        <div class="section web web-fsk">
+          <h2>Förskolekompetens</h2>
+          <div class="web-cont">
+            <img class="img" src="../../images/fsk-kompetens.png" alt="förskolekompetens">
+            <div class="web-text">
+              <p> One of my side projects where I'm testing to build a webpage for a fictive company. Still in progress. </p>
+              <p> I started this project before I entered this course and will keep on develop the page as I go on.</p>
+            </div>
+          </div>
+          <a class="small-text" href="https://frosty-nobel-1640a4.netlify.app/" target="_blank">Open Förskolekompetens in a new window.</a>        
+        </div>
+      </div>
     </main>
-
     <footer>
       <div class="footer__section">
-        <div class="contact-link"><a href="mailto:kicki.lindstrand@gmail.com"><h4>Contact me</h4></a></div>
-        <div class="copywright"><p class="small-text">Made by akickia</p></div>
+        <div class="contact-link">
+          <a href="mailto:kicki.lindstrand@gmail.com"><h4>Contact me</h4></a>
+        </div>
+        <div class="copywright">
+          <p class="small-text">Made by akickia</p>
+        </div>
         <div class="social-links">
           <a href="http://www.linkedin.com/in/kicki-lindstrand" target="_blank"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://instagram.com/akickias_hemsidor/" target="_blank"><i class="fa fa-instagram"></i></a>

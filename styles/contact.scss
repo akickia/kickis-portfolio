@@ -2,10 +2,6 @@
 @import 'footer';
 @import 'header';
 
-.section__heading {
-    text-align: center;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -16,6 +12,7 @@ main {
     display: flex;
     justify-content: center;
 }
+
 .contact-img {
     max-width: 30%;
     width: 100%;
@@ -40,8 +37,6 @@ main {
         font-weight: bold;
     }
 }
-
-
 
 @media screen and (max-width: 450px) {
     .section__content {

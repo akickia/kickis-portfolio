@@ -1,171 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the portfolio of frontend developer Kicki Lindstrand">
+    <meta property="og:description" content="Welcome to the portfolio of frontend developer Kicki Lindstrand">
+    <meta property="twitter:description" content="Welcome to the portfolio of frontend developer Kicki Lindstrand">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../styles/about.css">
     <script src="https://kit.fontawesome.com/1aafbbb739.js" crossorigin="anonymous"></script>
     <title>About</title>
-</head>
-<body>
-  <header>
-    <nav class="section__nav">
-      <ul class="nav-list" id="nav-bar">
-        <li><a class="icon" onclick="burgerMenu()">
-          <i class="fa fa-bars"></i></a></li>
+  </head>
+  <body>
+    <header>
+      <nav class="section__nav">
+        <ul class="nav-list" id="nav-bar">
+          <li><a class="icon" onclick="burgerMenu()">
+            <i class="fa fa-bars"></i></a></li>
           <li><a href="../index.html">Start</a></li>
           <li><a class="active" href="about.html">About</a></li>
-        <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
-          <ul class="dropdown-content">
-            <li><a href="portfolio/webbpages.html">Webpages</a></li>
-            <li><a href="portfolio/educations.html">Educations</a></li>
-            <li><a href="portfolio/other.html">Other</a></li>
+          <li class="dropdown-list" id="drop-nav"><a class="dropdown-item" onclick="dropNav()" href="#">Portfolio</a>
+            <ul class="dropdown-content">
+              <li><a href="portfolio/webbpages.html">Webpages</a></li>
+              <li><a href="portfolio/educations.html">Educations</a></li>
+              <li><a href="portfolio/other.html">Other</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="section__heading">
+        <h1>About me</h1>
+      </div>
+      <div class="section section__facts">
+        <div class="section__facts__content">
+          <h2>Facts</h2>
+          <p><u>Name:</u> Kicki Lindstrand<br>
+          <u>Age:</u> 40 years old<br>
+          <u>Location:</u> Eskilstuna, Sweden<br>
+          <u>Status:</u> Married to Martin since 2016 <br>
+          <u>Children:</u> Ronja - 12 years, Lukas - 9 years and Ebba - 5 years old</p>
+        </div>
+        <div class="section__facts__img">
+          <img class="kicki" src="../images/jag2.jpg" alt="picture of Kicki">
+        </div>
+      </div>
+      <div class="section__fun-fact">
+        <div class="section section__fun-fact__like">
+          <h2>I like <i class="fa fa-thumbs-up"></i></h2>
+          <ul>
+            <li>My family</li>
+            <li>Equality</li>
+            <li>Jigsaw-puzzels</li>            
+            <li>Walks in nature</li>
+            <li>Learning new things</li>
+            <li>Music</li>
+            <li>Strawberries</li>
+            <li>Spring</li>
+            <li>Coffee!</li>
           </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-    <main class="container animate__animated animate__zoomIn">
-        <div class="section__heading">
-          <h1>About me</h1>
         </div>
-        
-        <div class="section section__facts">
-          <div class="section__facts__content">
-            <h2>Facts</h2>
-            <p><u>Name:</u> Kicki Lindstrand<br>
-              <u>Age:</u> 40 years old<br>
-              <u>Location:</u> Eskilstuna, Sweden<br>
-              <u>Status:</u> Married to Martin since 2016 <br>
-              <u>Children:</u> Ronja - 12 years, Lukas - 9 years and Ebba - 5 years old</p>
-          </div>
-          <div class="section__facts__img">
-            <img class="kicki" src="../images/jag2.jpg" alt="picture of Kicki">
-          </div>
+        <div class="section section__fun-fact__dislike">
+          <h2>I don't like <i class="fa fa-thumbs-down"></i></h2>
+          <ul>
+            <li>Injustice</li>
+            <li>Mushrooms (eating them - looking for them in the forest is nice!)</li>
+            <li>Intolerance</li>
+            <li>Winter</li>
+            <li>Spiders</li>
+            <li>Phone calls</li>
+            <li>Wasps</li>
+          </ul>
         </div>
-
-        <div class="section__fun-fact">
-          <div class="section section__fun-fact__like">
-            <h2>I like <i class="fa fa-thumbs-up"></i></h2>
-            <ul>
-              <li>My family</li>
-              <li>Equality</li>
-              <li>Jigsaw-puzzels</li>
-              <li>Walks in nature</li>
-              <li>Learning new things</li>
-              <li>Music</li>
-              <li>Strawberries</li>
-              <li>Spring</li>
-              <li>Coffee!</li>
-            </ul>
-          </div>
-          <div class="section section__fun-fact__dislike">
-            <h2>I don't like <i class="fa fa-thumbs-down"></i></h2>
-            <ul>
-              <li>Injustice</li>
-              <li>Mushrooms (eating them - looking for them in the forest is nice!)</li>
-              <li>Intolerance</li>
-              <li>Winter</li>
-              <li>Spiders</li>
-              <li>Phone calls</li>
-              <li>Wasps</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="img-section">
-          <img class="colors" src="../images/colors.png">
-        </div>
-        
-        <div class="section__more">
-          <div class="section section__more__work">
-            <h3><i class="fa fa-school"></i> When I'm at work </h3> 
-            <p>I'm very ambitious in my work and take it seriously. I'm good at structure, organizing and seeing the big picture. I'm a quick learner and if I don't know the answer I will find a way to solve the problem. 
+      </div>
+      <div class="img-section">
+        <img class="colors" src="../images/colors.png">
+      </div>    
+      <div class="section__more">
+        <div class="section section__more__work">
+          <h3><i class="fa fa-school"></i> When I'm at work </h3> 
+          <p> I'm very ambitious in my work and take it seriously. I'm good at structure, organizing and seeing the big picture. I'm a quick learner and if I don't know the answer I will find a way to solve the problem. 
               As a preeschool teacher I'm used to reflect about my actions and achievements in order to improve. 
-            I find relations and communication very interesting and have spent a lot of time studying this to make sure my messages are always clear, directed to the right receiver and are understood correctly. I'm also very good at 
-            expressing myself in writing. This goes mainly for my first language Swedish, but I'm actively working on my English skills. 
-            </p>
-            <p>Equality has always been important to me. I've worked a lot with bringing awareness about discrimination against people on the basis of for instance gender, religion, etnicity or sexual orientation. 
-              In my opinion, diversity makes us grow and I'm always open to meet new people. To make all children feel safe and seen has been the most important thing to me in my profession, but I've also taken a lot of interest and responsibility in the quality of the education. </p>
-              <p>I've been a mentor for students from university since 2017 and in 2019 I started to mentor new colleagues in Eskilstuna in an extended introduction program together with three other experienced preschool teachers. 
-                I have held lectures during the introduction and in other work-meetings about for instance group dynamics, systematic quality work and LGBTQ (HBTQ).</p>
-              <p>I will never regret all the experience and the wonderful relationships I've been able to be a part of during my years in preeschool, but now it's time to find new roads ahead!</p>
-          </div>
-          
-          <div class="section section__more__home">
-            <h3><i class="fa fa-house-user"></i> When I'm at home</h3>
-            <p>I have learned the importancy of recovery and mindfullness, so when I'm at home I try not to have too much on my schedule. I love to spend my time with a large jigsaw-puzzel, a crossword or playing solitaire. A good movie with the family is also very nice.</p>
-            <p>Having three kids there are a lot of logistics to take in consideration, and studying at home has been a great help. I can plan my hours so that I can take part in the childrens activities and even go to the gym now and then, and still have enough time to complete my assignments.
+              I find relations and communication very interesting and have spent a lot of time studying this to make sure my messages are always clear, directed to the right receiver and are understood correctly. I'm also very good at 
+              expressing myself in writing. This goes mainly for my first language Swedish, but I'm actively working on my English skills. 
+          </p>
+          <p> Equality has always been important to me. I've worked a lot with bringing awareness about discrimination against people on the basis of for instance gender, religion, etnicity or sexual orientation. 
+              In my opinion, diversity makes us grow and I'm always open to meet new people. To make all children feel safe and seen has been the most important thing to me in my profession, but I've also taken a lot of interest and responsibility in the quality of the education. 
+          </p>
+          <p> I've been a mentor for students from university since 2017 and in 2019 I started to mentor new colleagues in Eskilstuna in an extended introduction program together with three other experienced preschool teachers. 
+              I have held lectures during the introduction and in other work-meetings about for instance group dynamics, systematic quality work and LGBTQ (HBTQ).
+          </p>
+          <p> I will never regret all the experience and the wonderful relationships I've been able to be a part of during my years in preeschool, but now it's time to find new roads ahead! 
+          </p>
+        </div>
+        <div class="section section__more__home">
+          <h3><i class="fa fa-house-user"></i> When I'm at home</h3>
+          <p> I have learned the importancy of recovery and mindfullness, so when I'm at home I try not to have too much on my schedule. I love to spend my time with a large jigsaw-puzzel, a crossword or playing solitaire. A good movie with the family is also very nice.
+          </p>
+          <p> Having three kids there are a lot of logistics to take in consideration, and studying at home has been a great help. I can plan my hours so that I can take part in the childrens activities and even go to the gym now and then, and still have enough time to complete my assignments.
               My hopes for the future are therefore to find a remote or hybrid position as a junior frontend developer, or a job in my hometown. 
-            </p>
-            <p>As I already mentioned, I am good at structure and organization, and that runs through my personal life as well. I'm diciplined when it comes to study or work, and I do what I'm supposed to do in my workhours. 
-              I don't like to deliver work that is sloppy. I work fast and efficient but I'm also thorough and pay attention to details and clean code. </p>
-            <p>My family lives in a house in the outskirts of Eskilstuna. We have a caravan that we love to travel with to different locations when we are on vaccation.</p>
-          </div>
+          </p>
+          <p> As I already mentioned, I am good at structure and organization, and that runs through my personal life as well. I'm diciplined when it comes to study or work, and I do what I'm supposed to do in my workhours. 
+              I don't like to deliver work that is sloppy. I work fast and efficient but I'm also thorough and pay attention to details and clean code. 
+          </p>
+          <p> My family lives in a house in the outskirts of Eskilstuna. We have a caravan that we love to travel with to different locations when we are on vaccation.
+          </p>
         </div>
-        
-        <div class="section__more">
-          <div class="section section__more__code">
-            <h3><i class="fa fa-code"></i> Why I'm coding</h3>
-            <p>In September 2021 I took the hard decision to leave preeschool, due to the amount of stress the workload was causing me. I had no idea what to do instead and looked into different options. My husband, Martin, works in cyber security and he suggested that I should look into coding since I'm a fast learner, logical and structured. 
+      </div> 
+      <div class="section__more">
+        <div class="section section__more__code">
+          <h3><i class="fa fa-code"></i> Why I'm coding</h3>
+          <p> In September 2021 I took the hard decision to leave preeschool, due to the amount of stress the workload was causing me. I had no idea what to do instead and looked into different options. My husband, Martin, works in cyber security and he suggested that I should look into coding since I'm a fast learner, logical and structured. 
               I thought he was nuts. I had no experience and felt like I didn't understand anything about computers, even if I've always been a frequent and interested user and used digital tools a lot at work. I started searching for information online, asking Martin all kinds of questions I could think of, and took a few online classes. 
-              I got a bit used to the thought that coding might acctually be someting that could suit me very well! </p>
-              <p>In the winter 2021 I gathered a lot of knowledge and facts, and in January 2022 I took a leave from work to attend the intense course "IT: Tech for women" that is a frontend education for women and non-binary. I'm also studying "programing 1" (basics in programing) through Hermods. </p>
-              <p>Of course I'm still a beginner, but by now I've learned the basics of CSS and HTML, Python and C#. I know how to use Sass, SEO, Figma, Git and Github amongs other things. I have recently started to use Bootstrap and I'm learning it at the moment. In a few weeks we will start the last module that covers JavaScript and React.</p>
-              <p>Besides from theese courses I've attended courses online covering JavaScript, Python and HTML/CSS.</p>
-              <p>I know that I have <b>SOOO</b> much left to learn, but I'm starting to get a sense of how this works, get a lot of credit from my teacher that I'm getting the hang of this fast, and I hope to land an internship, a spot in a trainee program or a junior position anytime soon. In the meantime I'll keep studying and learning new things.</p>
-                <p><b>Please let me know if I can be of interest for your company. </b></p><p><b>I'm also constantly working on my portfolio, so if you need help making or remaking a smaller webbsite - send me an email.</b></p>
-                <img src="../images/code.jpg" alt="picture of code">
-            </div>
+              I got a bit used to the thought that coding might acctually be someting that could suit me very well! 
+          </p>
+          <p> In the winter 2021 I gathered a lot of knowledge and facts, and in January 2022 I took a leave from work to attend the intense course "IT: Tech for women" that is a frontend education for women and non-binary. I'm also studying "programing 1" (basics in programing) through Hermods. 
+          </p>
+          <p> Of course I'm still a beginner, but by now I've learned the basics of CSS and HTML, Python and C#. I know how to use Sass, SEO, Figma, Git and Github amongs other things. I have recently started to use Bootstrap and I'm learning it at the moment. In a few weeks we will start the last module that covers JavaScript and React.
+          </p>
+          <p> Besides from theese courses I've attended courses online covering JavaScript, Python and HTML/CSS.
+          </p>
+          <p> I know that I have <b>SOOO</b> much left to learn, but I'm starting to get a sense of how this works, get a lot of credit from my teacher that I'm getting the hang of this fast, and I hope to land an internship, a spot in a trainee program or a junior position anytime soon. In the meantime I'll keep studying and learning new things.
+          </p>
+          <p><b> Please let me know if I can be of interest for your company. </b></p><p><b>I'm also constantly working on my portfolio, so if you need help making or remaking a smaller webbsite - send me an email.</b></p>
+          <img src="../images/code.jpg" alt="picture of code">
         </div>
-        
-        <div class="section__qualities">
-          <div class="section qual section__qualities__pros">
-            <h2>Pros</h2>
-            <ul>
-              <li>Ambitious</li>
-              <li>Fast learner</li>
-              <li>Problem solver</li>
-              <li>Curious</li>
-              <li>Flexible</li>
-              <li>Stable and has life-experience</li>
-              <li>Not afraid to take the lead in groups</li>
-            </ul>
-          </div>
-          <div class="section qual section__qualities__cons">
-            <h2>Cons</h2>
-            <ul>
-              <li>Beginner</li>
-              <li>Non-experienced in the field</li>
-              <li>Needs hybrid or remote work</li>
-            </ul>
-          </div>
-          <div class="section qual section__qualities__skills">
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Basics in JavaScript, Python and C#</li>
-              <li>Git and Github</li>
-              <li>Can present in front of others</li>
-              <li>Service-minded</li>
-              <li>Works well both in groups and individually</li>
-            </ul>
-          </div>
+      </div>
+      <div class="section__qualities">
+        <div class="section qual section__qualities__pros">
+          <h2>Pros</h2>
+          <ul>
+            <li>Ambitious</li>
+            <li>Fast learner</li>
+            <li>Problem solver</li>
+            <li>Curious</li>
+            <li>Flexible</li>
+            <li>Stable and has life-experience</li>
+            <li>Not afraid to take the lead in groups</li>
+          </ul>
         </div>
-        <div class="img-section">
-          <img class="colors" src="../images/colors.png">
+        <div class="section qual section__qualities__cons">
+          <h2>Cons</h2>
+          <ul>
+            <li>Beginner</li>
+            <li>Non-experienced in the field</li>
+            <li>Needs hybrid or remote work</li>
+          </ul>
         </div>
+        <div class="section qual section__qualities__skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Basics in JavaScript, Python and C#</li>
+            <li>Git and Github</li>
+            <li>Can present in front of others</li>
+            <li>Service-minded</li>
+            <li>Works well both in groups and individually</li>
+          </ul>
+        </div>
+      </div>
+      <div class="img-section">
+        <img class="colors" src="../images/colors.png">
+      </div>
     </main>
-
     <footer>
       <div class="footer__section">
-        <div class="contact-link"><a href="mailto:kicki.lindstrand@gmail.com"><h4>Contact me</h4></a></div>
-        <div class="copywright"><p class="small-text">Made by akickia</p></div>
+        <div class="contact-link">
+          <a href="mailto:kicki.lindstrand@gmail.com"><h4>Contact me</h4></a>
+        </div>
+        <div class="copywright">
+          <p class="small-text">Made by akickia</p>
+        </div>
         <div class="social-links">
           <a href="http://www.linkedin.com/in/kicki-lindstrand" target="_blank"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://instagram.com/akickias_hemsidor/" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -176,5 +186,5 @@
 
     <script src="../script/script.js"></script>
     
-</body>
+  </body>
 </html>

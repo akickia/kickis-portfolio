@@ -2,10 +2,6 @@
 @import 'footer';
 @import 'header';
 
-.section__heading {
-    text-align: center;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -50,6 +46,7 @@
 .web {
     text-align: center;
 }
+
 .web-cont {
     display: flex;
     text-align: start;
@@ -65,6 +62,7 @@
 .web-text {
     max-width: 40%;
 }
+
 .project-fskuppror {
     max-width: 70%;
 }
@@ -76,6 +74,7 @@
 .project-loppis, .project-mlk {
     max-width: 40%;
 }
+
 .fa-cat {
     font-size: 30rem;
 }

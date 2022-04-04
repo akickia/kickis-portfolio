@@ -1,14 +1,7 @@
-
-
 footer {
     background-color:  #03a8bb;
     color: white;
     font-size: 20px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 .footer__section {
@@ -21,6 +14,13 @@ a {
     align-items: center;
 }
 
+footer a:hover {
+    color: black;
+    font-weight: bold;
+    transition: 0.35s ease 0s;
+    transform: scale(1.2);
+}
+
 .social-links {
     min-width: 10%;
     display: flex;
@@ -28,14 +28,14 @@ a {
 }
 
 @media screen and (max-width: 750px) {
-    .social-links {
-        width: 20%;
-    }
     .contact-link a {
         font-size: 26px;
     }
     .copywright {
         font-size: 20px;
+    }
+    .social-links {
+        width: 20%;
     }
     i {
         font-size: 26px;
@@ -52,7 +52,7 @@ a {
         justify-content: center;
         max-width: 100%;
         width: 100%;
-        }
+    }
     .contact-link a {
         font-size: 42px;
     }
@@ -62,8 +62,8 @@ a {
     .social-links {
         width: 60%;
         padding: 20%;
-        i {
-            font-size: 42px;
-        }
+    }
+    i {
+        font-size: 42px;
     }
 }
