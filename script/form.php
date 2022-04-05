@@ -4,7 +4,7 @@
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    $email_from = 'michelleandersson@live.com'; 
+    $email_from = 'kicki.lindstrand@gmail.com'; 
     $email_subject = "New Form Submission from Portfolio"; 
     $headers = "From: My Portfolio ".$mailFrom; 
     $email_body = "User Name: $name. \n". 
@@ -12,8 +12,8 @@
                   "User Subject: $subject. \n". 
                   "User Message: $message. \n.";   
 
-    $to = "michelleandersson@live.com"; 
+    $to = "kicki.lindstrand@gmail.com"; 
     $headers = "From: $email_from \r\n"; 
     mail($to,$email_subject,$email_body,$headers); 
-    header("Location:index.html"); 
+    header("Location:../pages/contact.html"); 
 ?>
