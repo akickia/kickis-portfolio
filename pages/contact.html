@@ -42,6 +42,15 @@
       <div class="section section__content">
         <div>
           <a href="mailto:kicki.lindstrand@gmail.com">Send me an email..</a>
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="form__input-container">
+              <input type="text" id="your-name" name="name" placeholder="Your Name" required>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <input type="text" id="your-subject" name="subject" placeholder="Subject">
+            </div>
+            <textarea name="message" id="message" cols="22" rows="6" placeholder="Your message" required></textarea>
+            <input type="submit" class="button" name="submit" value="SEND MESSAGE">
+          </form>
         </div>
         <div>
           <p>..or check me out at:</p>
