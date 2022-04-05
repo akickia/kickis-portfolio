@@ -1,6 +1,6 @@
 <?php
 
-$to = "din_egen@e-postadress_här";
+$to = "kicki.lindstrand@gmail.com";
 $from = $_POST["email"];
 $subject = 'Kontakt från webbplatsen!';
 $fnamn = $_POST["fnamn"];
@@ -28,6 +28,6 @@ $message
 
 else
 echo "Det gick inte att skicka ditt meddelande";
-}
+
 
 ?>
