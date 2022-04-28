@@ -14,3 +14,7 @@ function burgerMenu() {
       burger.className = "nav-list";
       }
 }
+
+document.querySelector(".submit").addEventListener("click", function () {
+    alert("Thank you!");
+})
