@@ -15,6 +15,6 @@ function burgerMenu() {
       }
 }
 
-document.querySelector(".submit").addEventListener("click", function () {
-    alert("Thank you!");
+document.querySelector(".img-me").addEventListener("click", function(){
+    alert("HI THERE!")
 })
