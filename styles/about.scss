@@ -56,6 +56,19 @@
     justify-content: center;
 }
 
+.code-img   {
+    max-width: 100%;
+}
+.more {
+    height: 200px;
+    overflow: hidden;
+}
+
+.more.expand {
+    height: unset;
+    overflow: visible;
+}
+
 .section__more__home, .section__more__work, .section__more__code {
     max-width: 40%;
     width: 100%;

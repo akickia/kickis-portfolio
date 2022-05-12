@@ -7,6 +7,10 @@
     min-height: 80px;
 }
 
+li {
+    min-width: 80px
+}
+
 .active {
     color: white;
 }
@@ -33,7 +37,7 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .nav-list li:not(:first-child) {
         display: none;
     }

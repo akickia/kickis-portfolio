@@ -15,6 +15,15 @@ function burgerMenu() {
       }
 }
 
-document.querySelector(".section__me__content-img").addEventListener("click", function(){
-    alert("HI THERE!")
+
+
+
+const mores = document.querySelectorAll('.more');
+const readMore = document.querySelectorAll('.readMore')
+
+mores.forEach((more) => {
+    more.addEventListener('click', () => {
+        more.classList.add('expand');
+        readMore.innerHTML = ""
+    })
 })
