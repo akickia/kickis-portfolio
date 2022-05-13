@@ -59,12 +59,13 @@
 .code-img   {
     max-width: 100%;
 }
-.more {
+
+.more1, .more2, .more3 {
     height: 200px;
     overflow: hidden;
 }
 
-.more.expand {
+.expand {
     height: unset;
     overflow: visible;
 }
