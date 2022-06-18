@@ -3,11 +3,7 @@
 @import 'main';
 
 
-:root {
-    --animate-duration: 2s;
-    --animate-delay: 1s;
-    --animate-repeat: 1;
-}
+
 
 .section__welcome, .section__edu {
     background-color: white;
@@ -15,6 +11,9 @@
     border-radius: 0.5%;
 }
 
+.section__start {
+    text-align: center;
+}
 .section__me {
     background-image: url(../images/notebook.jpg);
     background-size: cover;
