@@ -53,6 +53,19 @@ img {
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
+.section__edu button {
+    width: 200px;
+    height: 80px;
+}
+.section__edu-sundsgarden {
+    float: left;
+    text-align: center;
+}
+.section__edu-folkuniversitetet {
+    float: right;
+    text-align: center;
+}
+
 
 @media screen and (max-width:992px) {
     .section__me__content {
