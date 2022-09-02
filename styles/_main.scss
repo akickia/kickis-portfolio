@@ -34,9 +34,10 @@ h1, h2, h3, h4, h5, h6 {
 button  {
     padding: 2%;
     background-color: #03a8bb;
-    border-radius: 8%;
+    border: 0;
+    border-radius: 10px;
     a {
-        color: black;
+        color: #fff;
     }
 }
 
@@ -44,6 +45,7 @@ button:hover {
     transform: scale(1.1);
     transition: 0.5 ease-in;
 }
+
 
 a {
     color: black;
