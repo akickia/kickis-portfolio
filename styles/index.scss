@@ -1,8 +1,6 @@
-@import 'footer';
 @import 'header';
+@import 'footer';
 @import 'main';
-
-
 
 
 .section__welcome, .section__edu {
@@ -37,7 +35,7 @@ img {
 }
 
 .img-me {
-    border-radius: 30%;
+    border-radius: 15px;
     max-width: 200px;
 }
 

@@ -1,6 +1,7 @@
+@import 'header';
 @import 'main';
 @import 'footer';
-@import 'header';
+
 
 .container {
     display: flex;
@@ -55,8 +56,12 @@
 }
 
 .img {
-    max-width: 40%;
-    padding: 2%;
+    max-width: 30%;
+    padding: 0.5rem;
+}
+
+.img-small {
+    max-width: 10%;
 }
 
 
@@ -109,6 +114,10 @@
     }
     .img, .web-text {
         max-width: 90%;
+    }
+
+    .img-small {
+        max-width: 50%;
     }
 }
     
